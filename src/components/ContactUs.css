@@ -1,0 +1,53 @@
+.container {
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    
+    
+}
+
+.container > h1 {
+    color: white;
+    font: 500 5vmax cursive;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+    
+    
+}
+
+.form > input ,
+.form > textarea {
+    outline: none;
+    border: 1px solid white;
+    color: white;
+}
+
+
+.form > input {
+    height: 30px;
+}
+
+.form > button {
+    background-color: whitesmoke;
+    cursor: pointer;
+    color: black;
+    transition: 0.3s all;
+}
+
+
+.form > button:hover {
+    opacity: 0.6;
+}
+
+
+
+
+
